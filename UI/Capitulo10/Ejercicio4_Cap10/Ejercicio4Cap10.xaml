@@ -1,0 +1,19 @@
+﻿<Window x:Class="EjerciciosCap10_12AP1.UI.Cap10.Ejercicio4_Cap10.Ejercicio4Cap10"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosCap10_12AP1.UI.Cap10.Ejercicio4_Cap10"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" 
+        Title="Ejercicio 4 Cap 10" Height="395" Width="650">
+    <Grid>
+        <!-- <Image Source="./Resources/csharp.jpg" /> -->
+
+        <StackPanel>
+
+  
+
+        </StackPanel>
+
+    </Grid>
+</Window>

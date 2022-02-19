@@ -1,0 +1,41 @@
+﻿<Window x:Class="EjerciciosCap10_12AP1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosCap10_12AP1"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Title="Ejercicios 10 - 12 Del Libro" Height="395" Width="650">
+    <Grid>
+        <Image Source="./Resources/csharp.jpg" />
+
+        <StackPanel>
+
+            <!--Menu Registro-->
+            <Menu Height="22" HorizontalAlignment="Center">
+
+                <MenuItem Header="Capitulo 10" FontSize="15" FontWeight="Bold">
+
+                    <MenuItem x:Name="Ejercicio1_10" Header="Ejercicio 1 " Click="Ejercicio1_Cap10Button_Click"  />
+                    <MenuItem x:Name="Ejercicio2_10" Header="Ejercicio 2" Click="Ejercicio2_Cap10Button_Click" />
+                    <MenuItem x:Name="Ejercicio3_10" Header="Ejercicio 3 " Click="Ejercicio3_Cap10Button_Click" />
+                    <MenuItem x:Name="Ejercicio4_10" Header="Ejercicio 4" Click="Ejercicio4_Cap10Button_Click" />
+                    <MenuItem x:Name="Ejercicio5_10" Header="Ejercicio 5" Click="Ejercicio5_Cap10Button_Click" />
+            
+                </MenuItem>
+
+                <MenuItem Header="Capitulo 12" FontSize="15" FontWeight="Bold">
+
+                    <MenuItem x:Name="Ejercicio1_12" Header="Ejercicio 1 " />
+                    <MenuItem x:Name="Ejercicio2_12" Header="Ejercicio 2 " />
+                    <MenuItem x:Name="Ejercicio3_12" Header="Ejercicio 3 " />
+                    <MenuItem x:Name="Ejercicio4_12" Header="Ejercicio 4 " />
+                    <MenuItem x:Name="Ejercicio5_12" Header="Ejercicio 5 " />
+
+                </MenuItem>
+            </Menu>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
